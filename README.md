@@ -1,8 +1,13 @@
-# React + Vite
+# User Management Projet 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### To run project in your local machine
+* Fork/download the Repo
+* In root directory run `npm install`
+* To run server :
+    * `npm install -g json-server`
+    * Go to \public directory and run `json-server --watch db.json`
+    * You server is Ready at `http://localhost:3000/user`
+* To run frontend :
+    * In root diretory run `npm run dev`
+    * Your Project Ready at `http://localhost:5173/` 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
