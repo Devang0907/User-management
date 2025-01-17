@@ -8,6 +8,6 @@
     * Go to \public directory and run `json-server --watch db.json`
     * You server is Ready at `http://localhost:3000/user`
 * To run frontend :
-    * In root diretory run `npm run dev`
+    * In root directory run `npm run dev`
     * Your Project Ready at `http://localhost:5173/` 
 
