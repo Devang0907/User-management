@@ -1,0 +1,64 @@
+{
+  "user": [
+    {
+      "id": "f72d",
+      "name": "Arjun Mehta",
+      "email": "arjun.mehta@example.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "c22a",
+      "name": "Priya Kapoor",
+      "email": "priya.kapoor@example.com",
+      "phone": "9123456789"
+    },
+    {
+      "id": "b024",
+      "name": "Kabir Ahuja",
+      "email": "kabir.ahuja@example.com",
+      "phone": "9321654780"
+    },
+    {
+      "id": "19bf",
+      "name": "Rhea Malhotra",
+      "email": "rhea.malhotra@example.com",
+      "phone": "9564783210"
+    },
+    {
+      "id": "8ee0",
+      "name": "Nikhil Verma",
+      "email": "nikhil.verma@example.com",
+      "phone": "9845123678"
+    },
+    {
+      "id": "02c0",
+      "name": "Isha Nair",
+      "email": "isha.nair@example.com",
+      "phone": "9876512345"
+    },
+    {
+      "id": "bd89",
+      "name": "Rohan Bhatia",
+      "email": "rohan.bhatia@example.com",
+      "phone": "9765432109"
+    },
+    {
+      "id": "98fe",
+      "name": "Ananya Sen",
+      "email": "ananya.sen@example.com",
+      "phone": "9345678123"
+    },
+    {
+      "id": "28a9",
+      "name": "Manav Sharma",
+      "email": "manav.sharma@example.com",
+      "phone": "9123456701"
+    },
+    {
+      "id": "b76d",
+      "name": "Tanya Gupta",
+      "email": "tanya.gupta@example.com",
+      "phone": "9876012345"
+    }
+  ]
+}
