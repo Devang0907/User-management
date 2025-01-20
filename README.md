@@ -5,7 +5,7 @@
 * In root directory run `npm install`
 * To run server :
     * Run `npm install -g json-server`
-    * Go to \public directory and run `json-server --watch db.json`
+    * Go to \public directory and run `json-server --watch db.json` to start user json server and run `json-server --watch admin.json` to start admin json server
     * You server is Ready at `http://localhost:3000/user`
 * To run frontend :
     * In root directory run `npm run dev`
