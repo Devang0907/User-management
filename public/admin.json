@@ -1,0 +1,19 @@
+{
+  "admin": [
+    {
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "id": "0537"
+    },
+    {
+      "id": "4722",
+      "email": "devang@gmail.com",
+      "password": "dev@123456"
+    },
+    {
+      "id": "c29c",
+      "email": "ceo@gamil.com",
+      "password": "asd"
+    }
+  ]
+}

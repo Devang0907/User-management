@@ -1,12 +1,6 @@
 {
   "user": [
     {
-      "id": "f72d",
-      "name": "Arjun Mehta",
-      "email": "arjun.mehta@example.com",
-      "phone": "9876543210"
-    },
-    {
       "id": "c22a",
       "name": "Priya Kapoor",
       "email": "priya.kapoor@example.com",
