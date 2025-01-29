@@ -12,7 +12,7 @@ function SignIn() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.get("http://localhost:4000/admin", {
+            const res = await axios.get(import.meta.env.VITE_ADMIN_BACKEND_URL, {
                 params: {
                     email: email
                 },

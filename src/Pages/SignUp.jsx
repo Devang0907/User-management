@@ -13,7 +13,7 @@ function SignUp() {
         e.preventDefault();
         try{
 
-            const res=await axios.get("http://localhost:4000/admin",{params:{
+            const res=await axios.get(import.meta.env.VITE_ADMIN_BACKEND_URL,{params:{
                 email:email
             }})
 
@@ -21,7 +21,7 @@ function SignUp() {
                let salt = bcrypt.genSaltSync(10);
                let hash = bcrypt.hashSync(password, salt); 
 
-               await axios.post("http://localhost:4000/admin",{email,hash});
+               await axios.post(import.meta.env.VITE_ADMIN_BACKEND_URL,{email,hash});
                alert("You are register as admin.")
                navigate('/')
             }

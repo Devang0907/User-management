@@ -2,15 +2,18 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Async thunk to fetch users from an API
+
+const VITE_DB_BACKEND_URL=String(import.meta.env.VITE_DB_BACKEND_URL);
+
 export const fetchUsers = createAsyncThunk('users/fetchUsers', async () => {
-  const response = await axios.get('http://localhost:3000/user');
+  const response = await axios.get(VITE_DB_BACKEND_URL);
   return response.data;
 
 });
 
 // Async thunk to add users to db.json using an API
 export const addUsers = createAsyncThunk('users/addUsers', async (newUser) => {
-  const response = await axios.post('http://localhost:3000/user', newUser);
+  const response = await axios.post(VITE_DB_BACKEND_URL, newUser);
   return response.data;
 
 });
@@ -18,7 +21,7 @@ export const addUsers = createAsyncThunk('users/addUsers', async (newUser) => {
 // Async thunk to delete users from db.json using an API
 export const deleteUser = createAsyncThunk('users/deleteUsers', async (id) => {
   try {
-    await axios.delete(`http://localhost:3000/user/${id}`);
+    await axios.delete(VITE_DB_BACKEND_URL+`/${id}`);
     return id;
   }
   catch (error) {
@@ -30,7 +33,7 @@ export const deleteUser = createAsyncThunk('users/deleteUsers', async (id) => {
 // Async thunk to update users in db.json using an API
 export const updateUsers = createAsyncThunk('users/updateUsers', async (updatedUser) => {
   try {
-    const response=await axios.put(`http://localhost:3000/user/${updatedUser.id}`, updatedUser);
+    const response=await axios.put(VITE_DB_BACKEND_URL+`/${updatedUser.id}`, updatedUser);
     return response.data;
   }
   catch (error) {

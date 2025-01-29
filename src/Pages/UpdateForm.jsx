@@ -22,7 +22,7 @@ function UpdateForm() {
     const handleSubmit = () => {
         if (validateUserDetails(inputs.name, inputs.email, inputs.phone)) {
             dispatch(updateUsers(inputs));
-            navigate('/');
+            navigate('/landing');
         }
             
         
