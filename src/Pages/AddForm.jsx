@@ -23,7 +23,7 @@ function AddForm() {
   const handleSubmit = () => {
     if(validateUserDetails(inputs.name, inputs.email, inputs.phone)){
       dispatch(addUsers(inputs))
-      navigate('/')
+      navigate('/landing')
     }
   };
 
