@@ -1,19 +1,19 @@
 {
   "admin": [
     {
-      "email": "admin@gmail.com",
-      "password": "1234",
-      "id": "0537"
+      "id": "415f",
+      "email": "mike@gamil.com",
+      "hash": "$2a$10$lvFdAZkGKkI.WlvO.mg3pek/gAOzzBZWFPbU5CGVqY.Sb1sWkGoaC"
     },
     {
-      "id": "4722",
-      "email": "devang@gmail.com",
-      "password": "dev@123456"
-    },
-    {
-      "id": "c29c",
+      "id": "1806",
       "email": "ceo@gamil.com",
-      "password": "asd"
+      "hash": "$2a$10$tOljLrKceKfc.odU8VTzHuq9jamO3gdhVQg0Hyb96ko/5j3ow9wMm"
+    },
+    {
+      "id": "9a65",
+      "email": "dev@gamil.com",
+      "hash": "$2a$10$TJFRzF/GO7ECwJtQ0/11eOxRqDpHICh6RI1No0hwSfHuTqUvSUw7i"
     }
   ]
 }

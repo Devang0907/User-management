@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
+import bcrypt from 'bcryptjs';
 
 function SignUp() {
     const [email, setEmail] = useState('');
@@ -17,7 +18,10 @@ function SignUp() {
             }})
 
             if(res.data.length===0){
-               await axios.post("http://localhost:4000/admin",{email,password});
+               let salt = bcrypt.genSaltSync(10);
+               let hash = bcrypt.hashSync(password, salt); 
+
+               await axios.post("http://localhost:4000/admin",{email,hash});
                alert("You are register as admin.")
                navigate('/')
             }
